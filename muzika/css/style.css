@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #10171c;
+  color: white;
+}
+h1 {
+  color: #007e5c;
+  margin-left: 50px;
+}
+#visbox {
+  height: 900px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+}
+#music {
+  position: absolute;
+  top: 100px;
+  left: 80%;
+  margin-left: -150px;
+  z-index: 1000;
+}

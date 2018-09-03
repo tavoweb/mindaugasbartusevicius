@@ -1,290 +1,1422 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  	<meta http-equiv="content-script-type" content="text/javascript" />
+  	<meta http-equiv="content-style-type" content="text/css" />
+  	<meta http-equiv="content-language" content="lt" />
+
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  	<meta name="author" content="Mindaugas Bartusevičius" />
+  	<meta name="description" content="I'm Mindaugas Bartusevičius, a software engineer and data scientist with a penchant for film and design." />
+  	<meta name="keywords" content="Mindaugas Bartusevičius, Interactive Resume, Data Science, Web developer, Startup, Interactive CV, Resume, CV, Stuyvesant, MIT, Massachusetts Institute of Technology, Algorithms, MySQL, SQL, Python, Javascript" />
+  	<meta name="robots" content="index, follow" />
+  	<meta name="revisit-after" content="14 days" />
 	<title>Mindaugas Bartusevičius</title>
 	<link rel="stylesheet" href="css/style.css">
+	  <!-- Bootstrap core CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!--[if lt IE 9]>
+			<script src="/view/js/html5shiv.js"></script>
+			<script src="/view/js/respond.min.js"></script>
+		<![endif]-->
+
+  <!-- Begin Inspectlet Embed Code -->
+
+  <!-- End Inspectlet Embed Code -->
 </head>
-<body>
-	<h1>Garso vizualizatorius Daina: 8 Kamparys feat. Niko - IEŠKAU (Remix)</h1>
-	<audio id="music" controls crossorigin="anonymous"></audio>
-	<div id="visbox">
-		<canvas id="visCanvas"></canvas>
-	</div>
+<body data-spy="scroll" data-target="#navbar-example">
+
+  <div id="top" class="jumbotron" data-src="https://expertai.lt/wp-content/uploads/2018/08/globe.mp4" data-position="center center">
+
+    <div class="container">
+      <h1>Mindaugas Bartusevičius</h1>
+      <p class="lead">Developer</p><br>
+      <ul class="social">
+        <li><a href="mailto:mano@expertai.lt" target="_blank"><i class="fa fa-envelope-o"></i></a></li>
+        <li><a href="https://github.com/tavoweb" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+        <li><a href="https://codepen.io/tavoweb" target="_blank"><i class="fa fa-codepen"></i></a></li>
+        <li><a href="https://twitter.com/mindaugasbar" target="_blank"><i class="fa fa-twitter"></i></a></li>
+
+      </ul>
+    </div>
+
+    <div class="overlay"></div>
+
+    <a href="#apie" class="scroll-down">
+				<span class="glyphicon glyphicon-chevron-down"></span>
+			</a>
+  </div>
+
+  <nav class="navbar navbar-default" id="navbar-example" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#apie">Apie mane</a></li>
+        <li><a href="#muzika">Muzika</a></li>
+
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </nav>
+
+  <div class="background-white">
+    <div id="apie" class="container">
+      <h2>Apie mane</h2>
+      <p class="lead">...</p>
+
+      <hr />
+
+      <div class="row">
+        <center>
+          <img src="" alt="" width="246" height="246" />
+        </center>
+      </div>
+
+      <section id="about">
+        <div class="content">
+          <h3 class="subtitle">Trumpai</h3>
+          <table class="info">
+            <tr>
+              <td class="icon"><i class="fa fa-phone" aria-hidden="true"></i></td>
+              <td>+37069370376</td>
+            </tr>
+            <tr>
+              <td class="icon"><i class="fa fa-globe" aria-hidden="true"></i></td>
+              <td>Šiaurės pr. 95, Kaunas, Lietuva.</td>
+            </tr>            
+          </table>
+        </div>
+      </section>
+    </div>
+
+  </div>
+
+  <div id="muzika" class="container">
+    <h2>Muzika</h2>
+    <p class="lead">Dainų vizualizacijos.</p>
+      <section>
+        <div class="content">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+        </div>
+        </section>
+  </div>
+
+
+  <!--<div id="experiences" class="container">
+    <h2>Resume</h2>
+    <p class="lead">
+    </p>
+
+    <hr />
+
+    <h3>Education</h3>
+
+    <div class="experiences">
+
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>Massachusetts Institute of Technology</h4>
+          <p class="experience-period">
+            Sept 2017 - June 2021 </p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>BS Candidate in Electrical Engineering &amp; Computer Science, Applied Mathematics</strong>
+            <span class="hidden-phone">
+					<i>Activities</i>: Society of Women Engineers, IEEE, ACM, MIT Media Lab (Open Documentary Lab), Harvard-MIT Health Sciences and Technology (HST), Varsity Women's Crew, Varsity Rifle	</span>
+            <span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> Cambridge, MA </span>
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>Stuyvesant High School</h4>
+          <p class="experience-period">
+            Sept 2013 - Jun 2017 </p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>Advanced Regents Diploma</strong>
+            <span class="hidden-phone">
+					<i>Relevant Coursework</i>: Software Development, Systems Programming, Modern Physics and Nanotechnology, Data Structures and Algorithms, Multivariable Calculus, Complex Analysis, Intro to Modern Analysis (Columbia University), Quantum Mechanics and Relativity (Columbia University)				</span>
+            <span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> New York, NY </span>
+            </span>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <hr />
+
+    <h3>Experience</h3>
+
+    <div class="experiences">
+
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>Google</h4>
+          <p class="experience-period">
+            May 2017 - Aug 2017 </p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>CodeU Fellow</strong>
+            <span class="hidden-phone">
+					Worked alongside a team to build an Android application utilizing Android SIP API for native video calling. Implemented a search engine using web crawling, inverted indexing, and hash tables.				</span>
+            <span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> Online </span>
+
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>US Department of State</h4>
+          <p class="experience-period">
+            July 2016 - Nov 2016 </p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>Android Development Intern</strong>
+            <span class="hidden-phone">
+					Constructed streamline for migrating data from international users into an Android application for peer-to-peer communication. Helped manage data transfer and visualization from JSON format. Application presented at the United Nations by Facebook. 				</span>
+            <span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> Washington, D.C. </span>
+
+            <span class="seperator">|</span>
+            <span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+            <a href="https://eca.state.gov/highlight/p2p-challenging-extremism-together" target="_blank">https://eca.state.gov/highlight/p2p-challenging-extremism-together</a>
+            </span>
+
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>University Beyond</h4>
+          <p class="experience-period">
+            May 2016 - Dec 2016 </p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>Quality Assurance/Web Development Intern</strong>
+            <span class="hidden-phone">
+					Worked on building Wordpress site for National Student Discount Day initiative, transfering data and multimedia to front-end. Created A/B and automation tests for multiple web and mobile platforms for QA streamline. 				</span>
+            <span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> New York, NY </span>
+
+            <span class="seperator">|</span>
+            <span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+            <a href="https://www.universitybeyond.com/" target="_blank">https://www.universitybeyond.com/</a>
+            </span>
+
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>CERN</h4>
+          <p class="experience-period">
+            Aug 2015 - Oct 2015 </p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>Software Development Intern</strong>
+            <span class="hidden-phone">
+					Conducted research alongside post-doc researchers on building a smart infant incubator utilizing Raspberry Pi and Android device communication. Created prototype using Parse backend and a native graphical interface.				</span>
+            <span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> Geneva, Switzerland </span>
+
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>Qualcomm</h4>
+          <p class="experience-period">
+            June 2015 - Aug 2015 </p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>Software Developer (Contract)</strong>
+            <span class="hidden-phone">
+					Developed an Android Wear application alongside team of engineers and designers to detect users in close proximity to device. Utilized Arduino Yun and Qualcomm Dragonboard for hardware development. Implemented NFC control, AllJoyn JS for peer-to-peer communication, and RFID reading.				</span>
+            <span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> Bridgewater, NJ </span>
+
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>New York University - Shahrjerdi Nanoelectronics Lab</h4>
+          <p class="experience-period">
+            May 2015 - Aug 2015 </p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>Research Assistant</strong>
+            <span class="hidden-phone">
+					Worked alongside PhD candidate to perform novel methodology of chemical vapor deposition for growing monolayer tungsten disulfide. Fabricated PDMS plastics for use in constructing flexible thermoelectric generators using bismuth telluride nanoparticles.				</span>
+            <span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> New York, NY </span>
+
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>New York University - Seeman Nanocrystallography Lab</h4>
+          <p class="experience-period">
+            May 2014 - Aug 2014 </p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>Research Assistant</strong>
+            <span class="hidden-phone">
+					Worked alongside PhD candidate to perform DNA design in NanoCAD and purification for use in constructing self-assembled 3D crystals based on structure of DNA tensegrity triangles. 				</span>
+            <span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> New York, NY </span>
+
+            </span>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>-->
+
+ <!-- <div class="background-white">
+    <div id="abilities" class="container">
+      <h2>Skills</h2>
+
+      <hr />
+
+      <h3>Technology</h3>
+
+      <div class="row">
+
+        <div class="col-md-6">
+          <ul class="no-bullets">
+
+            <li>
+              <span class="ability-title">HTML/CSS</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">JSON</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">MySQL</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">PHP</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Linux</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Javascript</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Java</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">AngularJS</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="no-bullets">
+
+            <li>
+              <span class="ability-title">MATLAB</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Mathematica</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Python</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">C/C++</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Ruby</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">TensorFlow</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Android Studio</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled "></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Swift</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+      <hr />
+
+      <h3>Languages</h3>
+
+      <div class="row">
+
+        <div class="col-md-6">
+          <ul class="no-bullets">
+
+            <li>
+              <span class="ability-title">English (fluent)</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Fujianese (Mother tongue)</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="no-bullets">
+
+            <li>
+              <span class="ability-title">Mandarin</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Spanish</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+      <hr />
+
+      <h3>Tools</h3>
+
+      <div class="row">
+
+        <div class="col-md-6">
+          <ul class="no-bullets">
+
+            <li>
+              <span class="ability-title">Git/Git Flow</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Google Cloud Platform</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Amazon Web Services</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Microsoft Azure</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Emacs</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Vim</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Photoshop</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Illustrator</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Premiere Pro</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">After Effects</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="no-bullets">
+
+            <li>
+              <span class="ability-title">Sketch</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Unity</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Unreal Engine</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">TensorFlow</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">scikit-learn</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">LaTeX</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">numpy</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">scipy </span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">pandas</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+            <li>
+              <span class="ability-title">Hadoop</span>
+              <span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star filled"></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              <span class="glyphicon glyphicon-star "></span>
+
+              </span>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>-->
+
+ <!-- <div id="projects" class="container">
+    <h2>Projects</h2>
+
+    <hr />
+
+    <div class="row">
+
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <figure class="effect">
+          <img src="/project_margarita.png" alt="Margarita" />
+
+          <figcaption>
+            <h3>++</h3>
+            <p>++</p>
+            <p><strong>Tags:</strong> <br />CSS, Javascript, jQuery</p>
+            <a href="url" target="_blank">View more</a>
+            <span class="icon">
+					<span class="glyphicon glyphicon-new-window"></span>
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+
+
+    </div>
+
+  </div>-->
+
+  <footer>
+    <div class="content">
+      <div class="description">Mindaugas Bartusevičius</div>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="upgrade-dialog" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Your browser is out of date</h4>
+        </div>
+        <div class="modal-body">
+          <p>To get the best possible experience using our site we recommend that you upgrade to a modern web browser. To download a newer web browser click on the Upgrade button.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="https://browsehappy.com/" target="_blank" class="btn btn-primary">Upgrade</a>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script>
+    /* <![CDATA[ */
+    (function(d, s, a, i, j, r, l, m, t) {
+      try {
+        l = d.getElementsByTagName('a');
+        t = d.createElement('textarea');
+        for (i = 0; l.length - i; i++) {
+          try {
+            a = l[i].href;
+            s = a.indexOf('/cdn-cgi/l/email-protection');
+            m = a.length;
+            if (a && s > -1 && m > 28) {
+              j = 28 + s;
+              s = '';
+              if (j < m) {
+                r = '0x' + a.substr(j, 2) | 0;
+                for (j += 2; j < m && a.charAt(j) != 'X'; j += 2) s += '%' + ('0' + ('0x' + a.substr(j, 2) ^ r).toString(16)).slice(-2);
+                j++;
+                s = decodeURIComponent(s) + a.substr(j, m - j)
+              }
+              t.innerHTML = s.replace(/</g, '&lt;').replace(/\>/g, '&gt;');
+              l[i].href = 'mailto:' + t.value
+            }
+          } catch (e) {}
+        }
+      } catch (e) {}
+    })(document); /* ]]> */
+  </script>
 </body>
 <script type="text/javascript">
-	/*
-	Music is by #LithuaniaHQ 8 Kambarys feat. Niko - IEŠKAU (Remix)
-	
-  
-	options and constructor are at bottom of file
-*/
+	var lnStickyNavigation;
 
-var Vis = function(opt) {
-   	function extend(a, b){
-		for(var key in b)
-			if(b.hasOwnProperty(key))
-				a[key] = b[key];
-		return a;
-	}
-	var opts = {
-		preferredBarWidth: 16,
-		forcePreferredBarWidth: false,
-		barSpacing: 1,
-		color: 'rainbow',
-		rainbowOpacity: 1,
-		element: 'canvas#visCanvas',
-		sourceElement: 'audio#visSource',
-		height: null,
-		width: null, // if set, will use, else will use parent width
-		numBars: null, // if set, will use, else will calculate from bar width
-		hideIfZero: true,
-		loop: false,
-		autoplay: true,
-		volume: 1,
-		sources: [],
-		consecutiveZeroesLimit: 50,
-		onPlay: function(name) {
-			console.log('now playing ' + name);
-		},
-		onPause: function() {
-
-		},
-		onEnd: function() {
-
-		},
-		onDragStart: function() {
-
-		},
-		onDragEnd: function() {
-
-		},
-		onVolumeChange: function() {
-
-		}
-	};
-
-	if (opt) extend(opts, opt);
-
-	var _this = this;
-	var seeking = false;
-	var cv = document.querySelector(opts.element);
-
-	if (!opts.width) {
-		opts.width = cv.parentElement.clientWidth;
-	}
-	if (!opts.height) {
-		opts.height = cv.parentElement.clientHeight;
-	}
-
-	var barColors = [];
-	cv.setAttribute('height', opts.height);
-	cv.setAttribute('width', opts.width);
-		
-	var numBars = (opts.numBars ? opts.numBars : Math.floor(opts.width / (opts.preferredBarWidth + opts.barSpacing)));
-	var barWidth = opts.width / numBars - opts.barSpacing;
-
-	if (opts.forcePreferredWidth) {
-		barWidth = opts.preferredBarWidth;
-	}
-	if (barWidth < 4) barWidth = 4;
-	
-	for (var i = 0; i < numBars; i++) {
-		var frequency = 5 / numBars;
-		if (opts.color == 'rainbow2') {
-			g = Math.floor(Math.sin(frequency * i + 0) * (127) + 128); //actual rainbow
-			r = Math.floor(Math.sin(frequency * i + 2) * (127) + 128);
-			b = Math.floor(Math.sin(frequency * i + 4) * (127) + 128);
-			barColors[i] = 'rgba('+r+','+g+','+b+','+opts.rainbowOpacity+')';
-		} else if (opts.color == 'rainbow') {
-			b = Math.floor(Math.sin(frequency * i + 0) * (127) + 128);
-			g = Math.floor(Math.sin(frequency * i + 1) * (127) + 128);
-			r = Math.floor(Math.sin(frequency * i + 3) * (127) + 128);
-			barColors[i] = 'rgba('+r+','+g+','+b+','+opts.rainbowOpacity+')';
-		} else if (opts.color == 'random') {
-			barColors[i] = '#' + Math.floor(Math.random() * 16777215).toString(16);
-		} else {
-			barColors[i] = opts.color;
-		}
-	}
-	
-	var c = cv.getContext('2d');
-
-	var cInd = 0;
-	var ind = 0;
-	for (var i = 0; i < cv.getAttribute('width'); i += (barWidth + opts.barSpacing)) {
-		c.save();
-		c.fillStyle = barColors[cInd++];
-		c.translate(i, 0);
-		c.fillRect(0, opts.height - opts.height * Math.random(), barWidth, opts.height);
-		c.restore();
-		ind += Math.floor(usableLength / numBars);
-	}
-
-				
-	var ctx = new AudioContext();
-	var audio = document.querySelector(opts.sourceElement);
-
-	audio.src = opts.sources[0];
-
-	var audioSrc = ctx.createMediaElementSource(audio);
-	var analyser = ctx.createAnalyser();
-	audioSrc.connect(analyser);
-	analyser.connect(ctx.destination);
-
-	var frequencyData = new Uint8Array(analyser.frequencyBinCount);
-	var usableLength = 250;
-	var consZ = 0;
-	var consZLim = opts.consecutiveZeroesLimit || 50;
-
-	function setUsableLength(len) {
-		if (len < usableLength) return;
-		//console.log('Increased usable length to '+usableLength);
-		usableLength = len;
-	}
-	function renderFrame() {
-		requestAnimationFrame(renderFrame);
-		analyser.getByteFrequencyData(frequencyData);
-
-		for (var i = 0; i < frequencyData.length; i++) {
-			if (frequencyData[i] == 0) {
-				consZ++;
-			} else {
-				consZ = 0;
-			}
-			if (consZ >= consZLim) {
-				setUsableLength(i - consZLim + 1);
-				break;
-			}
-		}
-		c.clearRect(0, 0, opts.width, opts.height);
-		var ind = 0;
-		var cInd = 0;
-		for (var i = 0; i < cv.getAttribute('width'); i += (barWidth + opts.barSpacing)) {
-			c.save();
-			c.fillStyle = barColors[cInd++];
-			c.translate(i, 0);
-			if (!opts.hideIfZero)
-				c.fillRect(0, opts.height - opts.height * (frequencyData[Math.floor(ind)] / 255) - 1, barWidth, opts.height);
-			else 
-				c.fillRect(0, opts.height - opts.height * (frequencyData[Math.floor(ind)] / 255), barWidth, opts.height);
-
-			c.restore();
-			ind += Math.floor(usableLength / numBars);
-		}
-		if (audio.ended) {
-			opts.onEnd();
-			_this.next();
-		}
-	}
-
-	audio.volume = opts.volume;
-	this.loop = opts.loop;
-	// this is just here so codepen can make a nice preview
-	setTimeout(function() {
-		renderFrame(this);
-		if (opts.autoplay) {
-			audio.play();
-		}
-	}, 1);
-
-	audio.addEventListener('play', function() {
-		opts.onPlay(opts.sources[playlistIndex].match(/([\w|.|-|%]+)$/g)[0]);
-	});
-	audio.addEventListener('pause', function() {
-		opts.onPause();
-	});
-	audio.addEventListener('seeking', function() {
-		seeking = true;
-		opts.onDragStart();
-	});
-	audio.addEventListener('seeked', function() {
-		seeking = false;
-		if (audio.currentTime == audio.duration) {
-			_this.next();
-		}
-		opts.onDragEnd();
-	});
-	audio.addEventListener('volumechange', function() {
-		opts.onVolumeChange();
-	});
-
-	var playlistIndex = 0;
-
-	this.play = function(newSource) {
-		if (newSource) audio.src = newSource;
-		audio.pause();
-		audio.play();
-		return this;
-	}
-	this.pause = function() {
-		audio.pause();
-		return this;
-	}
-	this.volume = function(vol) {
-		audio.volume = vol;
-		return this;
-	}
-	this.loop = function(loop) {
-		this.loop = loop;
-		return this;
-	}
-	this.mute = function(muted) {
-		audio.muted = muted;
-		return this;
-	}
-	this.duration = function() {
-		return audio.duration;
-	}
-	this.seek = function(seconds) {
-		if (seconds != null) {
-			audio.currentTime = seconds;
-			return this;
-		} else {
-			return audio.currentTime;
-		}
-	}
-	this.next = function() {
-		playlistIndex++;
-		if (playlistIndex == opts.sources.length) {
-			playlistIndex = 0;
-			if (this.loop) {
-				/*if (opts.sources.length == 1) {
-					this.seek(0);
-					return this.play();
-				} else if (audio.paused) return this;
-				else*/ 
-					return this.play(opts.sources[playlistIndex]);
-			} else {
-				return this.pause();
-			}
-		} else {
-			/*if (audio.paused) return this;
-			else*/ 
-				return this.play(opts.sources[playlistIndex]);
-		}
-	}
-	this.prev = function() {
-		playlistIndex--;
-		if (playlistIndex < 0)
-			playlistIndex = opts.sources.length - 1;
-		/*if (audio.paused) return this;
-		else */
-			return this.play(opts.sources[playlistIndex]);
-	}
-
-};
-
-var vis = new Vis({
-	sourceElement: '#music',
-	preferredBarWidth: 3,
-	sources: ['http://cors-anywhere.herokuapp.com/https://www.ctl.lt/8kambarys.mp3'],
-	volume: 0.90,
-	loop: true
-	//hideIfZero: false,
-	//numBars: 10,
-	//color: 'rgba(255,255,255,.1)'
-	//rainbowOpacity: 0.2
+$(document).ready(function()
+{	
+	applyHeader();
+	applyNavigation(); 
+	applyMailTo();
+	applyResize();
+	checkHash();
+	checkBrowser();
 });
+
+/* HEADER FUNCTIONS */
+
+function applyHeader()
+{
+	$('.jumbotron').css({ height: ($(window).height()) +'px' });
+	
+	lazyLoad($('.jumbotron'));
+}	
+
+function lazyLoad(poContainer)
+{
+	/*var lstrSource   = poContainer.attr('data-src');
+	var lstrPosition = poContainer.attr('data-position');
+
+	$('<img>').attr('src', lstrSource).load(function()
+	{
+		poContainer.css('background-image', 'url("'+ lstrSource +'")');
+		poContainer.css('background-position', lstrPosition);
+		poContainer.css('-ms-filter', '"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'' + lstrSource + '\', sizingMethod=\'scale\')"');
+		poContainer.css('filter', 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'' + lstrSource + '\', sizingMethod=\'scale\'');
+	});*/
+}
+
+/* NAVIGATION FUNCTIONS */
+
+function applyNavigation()
+{
+	applyClickEvent();
+	applyNavigationFixForPhone();
+	applyScrollSpy();
+	applyStickyNavigation();
+}
+
+function applyClickEvent()
+{
+	$('a[href*=#]').on('click', function(e)
+	{
+		e.preventDefault();
+		
+		if( $( $.attr(this, 'href') ).length > 0 )
+		{
+			$('html, body').animate(
+			{
+				scrollTop: $( $.attr(this, 'href') ).offset().top
+			}, 400);
+		}
+		return false;
+	});
+}
+
+function applyNavigationFixForPhone()
+{
+	$('.navbar li a').click(function(event) 
+	{
+		$('.navbar-collapse').removeClass('in').addClass('collapse');
+	});
+}
+
+function applyScrollSpy()
+{
+	$('#navbar-example').on('activate.bs.scrollspy', function() 
+	{
+		window.location.hash = $('.nav .active a').attr('href').replace('#', '#/');
+	});
+}
+
+function applyStickyNavigation()
+{
+	lnStickyNavigation = $('.scroll-down').offset().top + 20;
+	
+	$(window).on('scroll', function() 
+	{  
+		stickyNavigation();  
+	});  
+	
+	stickyNavigation();
+}
+
+function stickyNavigation()
+{         
+	if($(window).scrollTop() > lnStickyNavigation) 
+	{   
+		$('body').addClass('fixed');  
+	} 
+	else 
+	{  
+		$('body').removeClass('fixed');   
+	}  
+}
+
+/* MAILTO FUNCTION */
+
+function applyMailTo()
+{
+	$('a[href*=mailto]').on('click', function(e)
+	{
+		var lstrEmail = $(this).attr('href').replace('mailto:', '');
+		
+		lstrEmail = lstrEmail.split('').reverse().join('')
+		
+		$(this).attr('href', 'mailto:' + lstrEmail);
+	});
+}
+
+/* RESIZE FUNCTION */
+
+function applyResize()
+{
+	$(window).on('resize', function() 
+	{  
+		lnStickyNavigation = $('.scroll-down').offset().top + 20;
+	
+		$('.jumbotron').css({ height: ($(window).height()) +'px' });
+	}); 
+}
+
+/* HASH FUNCTION */
+
+function checkHash()
+{
+	lstrHash = window.location.hash.replace('#/', '#');
+	
+	if($('a[href='+ lstrHash +']').length > 0)
+	{
+		$('a[href='+ lstrHash +']').trigger('click');
+	}
+}
+
+/* IE7- FALLBACK FUNCTIONS */
+
+function checkBrowser()
+{
+	var loBrowserVersion = getBrowserAndVersion();
+	
+	if(loBrowserVersion.browser == 'Explorer' && loBrowserVersion.version < 8)
+	{ 
+		$('#upgrade-dialog').modal({
+			backdrop: 'static',
+			keyboard: false
+		});
+	}
+}
+
+function getBrowserAndVersion() 
+{
+	var laBrowserData = [{
+		string: 		navigator.userAgent,
+		subString: 		'MSIE',
+		identity: 		'Explorer',
+		versionSearch: 	'MSIE'
+	}];
+	
+	return {
+		browser: searchString(laBrowserData) || 'Modern Browser',
+		version: searchVersion(navigator.userAgent) || searchVersion(navigator.appVersion) || '0.0'
+	};
+}
+
+function searchString(paData) 
+{
+	for(var i = 0; i < paData.length; i++)	
+	{
+		var lstrDataString 	= paData[i].string;
+		var lstrDataProp 	= paData[i].prop;
+		
+		this.versionSearchString = paData[i].versionSearch || paData[i].identity;
+		
+		if(lstrDataString) 
+		{
+			if(lstrDataString.indexOf(paData[i].subString) != -1)
+			{
+				return paData[i].identity;
+			}
+		}
+		else if(lstrDataProp)
+		{
+			return paData[i].identity;
+		}
+	}
+}
+	
+function searchVersion(pstrDataString) 
+{
+	var lnIndex = pstrDataString.indexOf(this.versionSearchString);
+	
+	if(lnIndex == -1) 
+	{
+		return;
+	}
+	
+	return parseFloat(pstrDataString.substring(lnIndex + this.versionSearchString.length + 1));
+}	
 </script>
 </html>
